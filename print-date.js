@@ -5,8 +5,7 @@ function printDate()
 {
 	//instantiating a date object with current time
 	var toDay = new Date();
-	//saving the date and time as the return value
-	return toDay;
-	
+	//Saving the date and time as the return value
+	return toDay;	
 }
 
