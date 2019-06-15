@@ -1,20 +1,12 @@
 // add a printDate function in here
 // eg: console.log("Hello World")
 
-function printDateAndTime()
+function printDate()
 {
-	// var year = new getFullYear();
-	// var y = year.getFullYear();
-
-	var month = new getMonth();
-	var m = month.getMonth();
-
-	var day = new getDate();
-	var d = day.getDate();
-
+	//instantiating a date object with current time
+	var toDay = new Date();
+	//saving the date and time as the return value
+	return toDay;
 	
-	console.log(d+"//"+m+"//" + y);
-	console.log("what up");
 }
 
-printDateAndTime();
